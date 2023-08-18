@@ -72,7 +72,13 @@
     border-radius: 2px;
 }
 
+.section-dark {
+    background-color: #4d4d58;
+    /* color: #fdfafa; */
+    font-family: 'Courier New';
+  }
 
+  
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
     border: none;
@@ -382,3 +388,8 @@
     padding-right: 0;
     border-right: none;
 }
+
+
+
+
+  

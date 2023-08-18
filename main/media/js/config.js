@@ -93,8 +93,10 @@ $(function() { h5u_parallelism.init({
 						marginTop:			0,			// Margin (in px) to preserve at the top of the viewport
 						maxRows:			3,			// Maximum number of rows
 						minRows:			1,			// Minimum number of rows
-						padding:			10,			// Padding (in px) between items (0 = no padding)
-						paddingColor:		'#fff',		// Padding color
+						padding:			3,			// Padding (in px) between items (0 = no padding)
+						paddingColor:		'white',		// Padding color
+						onmouseover:        'hover',
+						
 						resetScroll:		true,		// If true, reel scroll will reset on page refresh
 						scrollFactor:		1,			// Scales the scroll delta (1 = normal, 2 = double, 0.5 = half, etc.)
 						scrollKeyAmount:	50,			// Scroll amount when using keys

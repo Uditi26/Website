@@ -25,15 +25,6 @@
 }
 
 
-
-
-
-/*
-	Parallelism 1.0 by HTML5 UP
-	html5up.net | @n33co
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -53,7 +44,7 @@
 		background: url('../images/bg.jpg');
 		background-size: cover;
 		color: #999;
-		color: rgba(255,255,255,0.6);
+		color: rgba(255, 252, 252, 0.6);
 		font-family: 'Source Sans Pro';
 		font-weight: 200;
 		text-transform: lowercase;
@@ -92,7 +83,7 @@
 	ul.contact
 	{
 		cursor: pointer;
-		margin: 0 0 1em 0;
+		margin: 0 0 0 0;
 	}
 	
 		ul.contact li
@@ -126,7 +117,7 @@
 		display: block;
 		position: relative;
 		background: #1a1f2c;
-		background: rgba(255,255,255,0.25);
+		background:transparent;
 	}
 	
 		.thumb h2
@@ -146,19 +137,20 @@
 		.thumb img
 		{
 			display: block;
-			z-index: 1;
+			/* z-index: 1; */
 		}
-
+/* 
+		.thumb img:hover{
+			transform: scale(1.5);
+		} */
+		.hover{
+			transform: scale(2);
+		}
 /*********************************************************************************/
 /* Icons                                                                         */
 /*********************************************************************************/
 
-	/*
-		Powered by:
-		
-		Font Awesome (http://fortawesome.github.com/Font-Awesome/)
-		Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More/)
-	*/
+	
 
 	.icon
 	{
@@ -343,7 +335,7 @@
 		.icon-check-empty:before { content: "\f096"; }
 		.icon-bookmark-empty:before { content: "\f097"; }
 		.icon-phone-sign:before { content: "\f098"; }
-		.icon-twitter:before { content: "\f099"; padding-left: 2px; }
+		.icon-twitter:before { content: "\f099"; padding-left: 10px; }
 		.icon-facebook:before { content: "\f09a"; padding-left: 6px; }
 		.icon-github:before { content: "\f09b"; }
 		.icon-unlock:before { content: "\f09c"; }
@@ -527,6 +519,7 @@
 		position: relative;
 		background: #141414;
 		color: #fff;
+		
 	}
 	
 		#header:before
@@ -535,7 +528,43 @@
 			position: absolute;
 			left: 0;
 			top: 0;
-			width: 100%;
-			height: 100%;
+			width: 200%;
+			height: 150%;
 			background: url('images/overlay.png');
 		}
+
+	p:first-letter{
+      text-transform: capitalize;
+	}
+
+
+	  #abc{
+    width:100%;
+    height:10vh;
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    }
+  nav{
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    line-height: 50px;
+  }
+  nav ul{
+    float: right;
+    margin-right: 30px;
+  }
+  nav ul li{
+    list-style-type: none;
+    display: block;
+    transition: 0.7s all;
+  }
+  nav ul li:hover{
+    background-color:rgb(75,104,105);
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 30px;
+	text-transform: capitalize;
+  }

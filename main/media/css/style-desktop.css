@@ -44,7 +44,7 @@
 	
 		ul.contact li
 		{
-			margin-left: 1em;
+			margin-left: 0px;
 		}
 
 /*********************************************************************************/
@@ -60,7 +60,7 @@
 	
 		#wrapper.overlayed
 		{
-			-webkit-filter: blur(3px);
+			-webkit-filter: blur(30px);
 		}
 
 /*********************************************************************************/
@@ -70,7 +70,7 @@
 	#main
 	{
 		width: 100%;
-		position: absolute;
+		position:absolute;
 	}
 
 /*********************************************************************************/
@@ -84,7 +84,7 @@
 
 		#reel .item
 		{
-			display: block;
+			display:block;
 			float: left;
 			position: relative;
 			overflow: hidden;
@@ -154,7 +154,7 @@
 	{
 		background: #1a1f2c;
 		background: rgba(18,21,29,0.9);
-		box-shadow: 0px 0px 0px 20px #fff, 0px 10px 60px 10px rgba(8,11,19,0.55);
+		box-shadow: 0px 0px 0px 20px #fff, 0px 0px 0px 0px rgba(8,11,19,0.55);
 	}
 	
 		.poptrox-popup .loader
@@ -165,7 +165,7 @@
 			position: absolute;
 			top: 50%;
 			left: 50%;
-			margin: -24px 0 0 -24px;
+			margin: 0px 0 0 0px;
 			background: url('images/loader.gif');
 			opacity: 0.25;
 		}
@@ -254,7 +254,7 @@
 			top: -70px;
 			right: -70px;
 			cursor: pointer;
-			border-radius: 40px;
+			border-radius: 4px;
 			box-shadow: 0px 0px 0px 1px #fff;
 		}
 		
@@ -262,3 +262,31 @@
 			{
 				content: "\00d7";
 			}
+
+			.thumb img:hover{
+				transform: scale(1.5);
+			}
+
+			nav{
+				width: 100%;
+				height: 50px;
+				background-color: #0005;
+				line-height: 50px;
+			  }
+			  nav ul{
+				float: right;
+				margin-right: 30px;
+			  }
+			  nav ul li{
+				list-style-type: none;
+				display: inline-block;
+				transition: 0.7s all;
+			  }
+			  nav ul li:hover{
+				background-color:#088;
+			  }
+			  nav ul li a{
+				text-decoration: none;
+				color: #fff;
+				padding: 30px;
+			  } 
