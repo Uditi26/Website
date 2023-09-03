@@ -1,8 +1,7 @@
-FROM node:12
+
+FROM node:18-alpine
 WORKDIR /app
 COPY . .
-RUN npm install
-COPY . .
-ENV PORT=3000
+RUN yarn install --production
+CMD ["node", "main/main.js"]
 EXPOSE 3000
-CMD ["npm","start"]
