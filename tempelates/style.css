@@ -1,0 +1,284 @@
+
+html,
+body {
+  height: 200%;
+  width: 100%;
+  margin: 0;
+  font-size: 19px;
+  font-family: "Georgia", Serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #dd3a3a;
+  scroll-behavior: smooth;
+  
+}
+
+
+
+/* CONTACT US STYLE */
+.back4{
+  background-image: url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/Contact_US-removebg-preview.png);
+  background-repeat: no-repeat;
+background-position: top;
+min-height:200px;
+
+
+}
+
+/* SECTION1 */
+.pimg1 {
+  /* background-image: url(https://github.com/Bullz-Racing-BMSCE/Website/blob/main/pics/looooogo.jpg?raw=true); */
+  min-height: 20%;
+  background-color:white;
+}
+
+/*ABOUT US BG*/
+.pimg2 { 
+  background-image: url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/IMG_5969.JPG);
+  min-height: 700px;
+}
+
+
+
+.psec{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px 40px;
+}
+.pimg3 {
+  background-image: url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/IMG_4642.JPG);
+  min-height: 400px;
+}
+.pimg4 {
+  background-image: url();
+  min-height:22%;
+}
+.pimg1,
+.pimg2,
+.pimg3,.pigm4 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 20px 40px;
+}
+.back4{ position: relative;
+  background-position: center;
+  background-size: 400px 500px;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  padding: 20px 40px;}
+/* .pimg4{
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+} */
+
+.ptext {
+  position: absolute;
+  justify-content: center;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color:rgb(0, 0, 0);
+  font-size: 60px;
+  letter-spacing: 2px;
+}
+.textBg {
+  background-color: rgba(255, 255, 255, 0.3);
+  border-style: solid;
+  border-width:medium;
+  border-color:rgb(0, 0, 0);
+  font-family: 'Tilt Warp' cursive;
+  text-align: center;
+  line-height: 1;
+  -webkit-backdrop-filter: blur(1px);
+  backdrop-filter: blur(1px);
+  max-width: 50%;
+  max-height: 50%;
+  
+  padding: 10px 20px;
+  
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #0c0c0c;
+  color: #000000;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #fdfafa;
+  font-family: 'Courier New';
+}
+.section2{
+   /* background-color:rgba(247, 52, 52, 0.3);  */
+   background-image: url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/red.png); 
+   background-position: right;
+  background-position: right;
+  /* border-style: solid;
+  border-width:medium;
+  border-color:rgb(0, 0, 0); */
+  text-align: center;
+  line-height: 1;
+  /* -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px); */
+  max-width: 50%;
+  max-height: 100%;
+  padding: 40px 20px;
+  position:absolute;
+  top:0%;
+  width:30%;
+  bottom: 35%;
+  left:0%;
+  align-self:right;
+  line-height:1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+/* 
+ABOUT US */
+.textBg2{
+  color:#000000;
+  font-family:'Courier New';
+  line-height: 1;
+  text-decoration:double;
+  font-weight: bolder;
+  font-size: medium;
+}
+.textBg3{
+  color:white;
+  font-family:'Times New Roman', Times, serif;
+  font-size:50px;
+  font-weight: bolder;
+  height:20px;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  align-self:center;
+  bottom:50%;
+  height: 20%;
+}
+#navbar{
+  background-color:#282e34;
+  background-image: url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/logo.png),url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/bms-removebg-preview.png);
+  background-position: left top,right top;
+  background-repeat: no-repeat,no-repeat;
+  background-size: contain;
+  padding: 10px;
+  /* margin-left: 2%; */
+  margin-bottom: 2%;
+  border-style: solid;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-color: #000000;
+  border-width: 10px;
+  transition: 0.4s;
+  position: scroll;
+  scroll-behavior: smooth;
+  
+}
+#navbar ul{
+  padding:0;
+  list-style: none;
+}
+#navbar li{
+  display:inline-block;
+}
+#navbar a{   
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-right :15px;
+  font-size: 25px;
+  font-family:verdana;
+  /* font-weight: bold; */
+}
+#navbar a:hover{
+  color: rgb(237, 44, 44);
+  background-color: transparent;
+}
+
+
+
+
+
+
+/* img {
+  filter: grayscale(100%);
+  -webkit-filter: grayscale(100%);
+  display:inline;
+}
+
+img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+} */
+
+    body {font-family: Arial, Helvetica, sans-serif;}
+    * {box-sizing: 50%;}
+    
+    input[type=text], select, textarea {
+      width: 50%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+    
+    input[type=submit] {
+      background-color: black;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: red;
+    }
+    
+    .container2 {
+      border-radius: 5px;
+      background-color: #D0D3D4;
+      padding: 20px;
+      size: 50px;
+      background-image: url(https://raw.githubusercontent.com/Bullz-Racing-BMSCE/Website/main/pics/logo.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-attachment: scroll;
+    }
+
+   .sec{
+    background-color: #282e34;
+  color: #fdfafa;
+  font-family: 'Courier New';
+   }
+
+
+   html {
+    scroll-behavior: smooth;
+  }

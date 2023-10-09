@@ -4,6 +4,7 @@ const path=require("path")
 const hbs=require("hbs")
 const tempelatePath=path.join(__dirname,'../tempelates')
 const collection=require("./mongodb")
+app.use(express.static('tempelates'))
 
 app.use(express.json())
 app.set("view engine","hbs")
@@ -11,13 +12,17 @@ app.set("views",tempelatePath)
 app.use(express.urlencoded({extended:false}))
 
 
-app.get("/",(req,res)=>{
+app.get("/login",(req,res)=>{
     res.render("login")
 })
 
-app.get("/index",(req,res)=>{
-    res.sendFile("index.html",{root:"./tempelates"});
+app.get("/",(req,res)=>{
+    res.render("index")
 })
+
+// app.get("/index",(req,res)=>{
+//     res.sendFile("index.html",{root:"../tempelates"});
+// })
 
 app.get("/signup",(req,res)=>{
     res.render("signup")
