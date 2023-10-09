@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bullz Racing</title>
+	<link rel="icon" href="../main/pics/Bullz final Logo (2).png">
+</head>
+<body>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url("../tempelates/carpic.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			font-family: sans-serif;
+		}
+
+
+		.loginbox {
+			width: 320px;
+			height: 420px;
+			background: rgba(0, 0, 0, 0.596);
+			color: #ffff;
+			top: 60%;
+			left: 75%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			box-sizing: border-box;
+			padding: 50px 30px;
+			border-radius: 30px;
+
+
+		}
+
+
+		h1 {
+			margin: 0;
+			padding: 0 0 20px;
+			text-align: center;
+			font-size: 22px;
+		}
+
+		.loginbox p {
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+			font-family: 'Trebuchet MS';
+		}
+
+		.loginbox input {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.loginbox input[type="text"],
+		input[type="password"] {
+			border: none;
+			border-bottom: 1px solid #ffff;
+			background: transparent;
+			outline: none;
+			height: 40px;
+			color: #ffff;
+			font-size: 16px;
+		}
+
+		.loginbox input[type="submit"] {
+			border: none;
+			outline: none;
+			height: 40px;
+			background: #18b3c7;
+			color: #ffff;
+			font-size: 18px;
+			border-radius: 20px;
+			font-family: 'Trebuchet MS';
+		}
+
+		.loginbox input[type="submit"]:hover {
+			cursor: pointer;
+			background: #0bb0ecaf;
+
+		}
+
+		.loginbox a {
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 20px;
+			color: darkgrey;
+		}
+	</style>
+	<div style="top: 8%;left: 70%;position: absolute;">
+		<!-- <img src="public/petzonia-logo@2x.png" width="150px" height="150px"> -->
+	</div>
+	<div class="loginbox" name="loginbox">
+
+      <form action="/signup" method="post">
+      <input type="text" name="name" placeholder="Name">
+      <input type="password" name="password" placeholder="Password">
+      <input type="submit">
+      </form></div>
+
+
+</body>
+</html>
