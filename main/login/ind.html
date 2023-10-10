@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Bullz Racing</title>
+	
+	<link rel="icon" type="image/x-icon" href="pics/Bullz final Logo (2).png">
+</head>
+
+<body>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			background-image: url("pics/carpic.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			font-family: sans-serif;
+		}
+
+
+
+        *{
+                        margin:0;
+                        padding:0;
+                        font-family:verdana;
+                      }
+                      #abc{
+                        width:100%;
+                        height:100vh;
+                        background-image: url(carpic.jpg);
+                        background-size: cover;
+                      }
+                      nav{
+                        width: 100%;
+                        height: 50px;
+                        background-color: #0005;
+                        line-height: 50px;
+                      }
+                      nav ul{
+                        float: right;
+                        margin-right: 30px;
+                      }
+                      nav ul li{
+                        list-style-type: none;
+                        display: inline-block;
+                        transition: 0.7s all;
+                      }
+                      nav ul li:hover{
+                        background-color:red;
+                      }
+                      nav ul li a{
+                        text-decoration: none;
+                        color: #fff;
+                        padding: 30px;
+                      }
+
+.b{
+    color:#fff;
+    font-size: small;
+}
+
+		.loginbox {
+			width: 320px;
+			height: 420px;
+			background: rgba(0, 0, 0, 0.596);
+			color: #ffff;
+			top: 60%;
+			left: 75%;
+			position: absolute;
+			transform: translate(-50%, -50%);
+			box-sizing: border-box;
+			padding: 50px 30px;
+			border-radius: 30px;
+
+
+		}
+
+
+		h1 {
+			margin: 0;
+			padding: 0 0 20px;
+			text-align: center;
+			font-size: 22px;
+		}
+
+		.loginbox p {
+			margin: 0;
+			padding: 0;
+			font-weight: bold;
+			font-family: 'Trebuchet MS';
+		}
+
+		.loginbox input {
+			width: 100%;
+			margin-bottom: 20px;
+		}
+
+		.loginbox input[type="text"],
+		input[type="password"] {
+			border: none;
+			border-bottom: 1px solid #ffff;
+			background: transparent;
+			outline: none;
+			height: 40px;
+			color: #ffff;
+			font-size: 16px;
+		}
+
+		.loginbox input[type="submit"] {
+			border: none;
+			outline: none;
+			height: 40px;
+			background: #18b3c7;
+			color: #ffff;
+			font-size: 18px;
+			border-radius: 20px;
+			font-family: 'Trebuchet MS';
+		}
+
+		.loginbox input[type="submit"]:hover {
+			cursor: pointer;
+			background: #0bb0ecaf;
+
+		}
+
+		.loginbox a {
+			text-decoration: none;
+			font-size: 12px;
+			line-height: 20px;
+			color: darkgrey;
+		}
+	</style>
+
+
+<nav>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+        <li><a href="ab.html">Our cars</a></li>
+        <li><a href="#"></a></li><li><a href="#"></a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="#"></a></li><li><a href="#"></a></li>
+        <li><a href="home.html#pimg4">Contact</a></li>
+        <li><a href="#"></a></li><li><a href="#"></a></li>
+        <li><a href="">Login</a></li>
+        <li><a href="#"></a></li>
+        <li><a href="#"></a></li>
+    </ul>
+</nav>
+
+
+	<div style="top: 8%;left: 70%;position: absolute;">
+		<!-- <img src="pics/Bullz final Logo (2).png" width="150px" height="150px"> -->
+	</div>
+	<div class="loginbox" name="loginbox">
+
+		<form method="post" id="final" action="login.php">
+			<h1 style="font-family: brush;">Login</h1>
+
+			<input id="username" type="text" name="user_name" placeholder="username"><br><br>
+			<input id="text" type="password" name="password" placeholder="password"><br><br>
+
+			<input id="button" type="submit" value="Login"><br><br>
+
+			<a href="sign.html">Click to Signup</a><br><br>
+		</form>
+	</div>
+</body>
+
+</html>
