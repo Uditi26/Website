@@ -6,6 +6,7 @@ const tempelatePath=path.join(__dirname,'../tempelates')
 const collection=require("./mongodb")
 app.use(express.static('tempelates'))
 
+
 app.use(express.json())
 app.set("view engine","hbs")
 app.set("views",tempelatePath)
@@ -31,7 +32,9 @@ app.get("/signup",(req,res)=>{
 app.post("/signup",async(req,res)=>{
     const data={
         name:req.body.name,
-        password:req.body.password
+        password:req.body.password,
+        mail:req.body.mail,
+        phone:req.body.phone
     }
 
     await collection.insertMany([data])
